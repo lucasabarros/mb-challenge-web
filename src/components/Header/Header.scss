@@ -1,0 +1,9 @@
+#header {
+  @include flex-center;
+  height: 70px;
+  .logo {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+  }
+}

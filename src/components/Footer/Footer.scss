@@ -1,0 +1,13 @@
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $background-secondary;
+  @include flex-center;
+  height: 30px;
+
+  .footer-text {
+    color: $secondary-color;
+  }
+}

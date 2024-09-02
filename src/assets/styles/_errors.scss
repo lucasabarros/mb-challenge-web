@@ -1,0 +1,9 @@
+@import "_variables";
+@import "_colors";
+
+.error-message {
+  color: $error-color;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  display: block;
+}
